@@ -255,7 +255,7 @@ export default function Home() {
         >
           {messages.length > 0
             ? messages.map((e) => {
-                return <div ey={e}>{e}</div>;
+                return <div key={e}>{e}</div>;
               })
             : "Write all the bad stuff you want here and no one will be able to ever see it; deleted on reload"}
         </div>
